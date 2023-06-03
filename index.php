@@ -1,88 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>projeto html </title>
+	<title>Projeto 01</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="palavras-chave,do,meu,site">
+	<meta name="description" content="Descrição do meu website">
+	<meta charset="utf-8" />
 </head>
-
 <body>
 
-    <a href="../../">Logomarca</a>
-    <ul>
-        <a href="#">
-            <li>Home</li>
-        </a>
-        <a href="#depoimentos" target="_black">
-            <li>Depoimentos</li>
-        </a>
-        <a href="#servico">
-            <li>Serviço</li>
-        </a>
-        <a href="">
-            <li>Contatos</li>
-        </a>
-    </ul>
+	<header>
+		<div class="center">
+			<div class="logo"><a href="/">Logomarca</a></div><!--logo-->
+			<nav class="desktop">
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="depoimentos">Depoimentos</a></li>
+					<li><a href="servicos">Serviços</a></li>
+					<li><a href="contato">Contato</a></li>
+				</ul>
+			</nav>
+			 <nav class="mobile right">
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">Depoimentos</a></li>
+					<li><a href="">Serviços</a></li>
+					<li><a href="contato">Contato</a></li>
+				</ul>
+			</nav>
+		</div><!--center-->
+	</header>
 
-    <ul>
-        <a href="">
-            <li>Home</li>
-        </a>
-        <a href="">
-            <li>Depoimentos</li>
-        </a>
-        <a href="">
-            <li>Serviço</li>
-        </a>
-        <a href="">
-            <li>Contatos</li>
-        </a>
-    </ul>
+	<section class="banner-principal">
+		<div class="center">
+			<form>
+				<h2>Qual o seu melhor email?</h2>
+				<input type="email" name="email">
+				<input type="submit" name="acao" value="Cadastrar">
+			</form>
+		</div>
+	</section>
 
-    <form action="" method="get">
-        <h1>Qual o seu melhor email?</h1>
-        <input type="text" placeholder="Informe porfavor o seu email">
-        <input type="submit" value="Cadastrar">
-    </form>
+	<section class="descricao-autor">
+		<div class="center">
+			<div class="w50">
+				<h2>João Castro</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</div>
+			<div class="w50">
+				<img src="images/foto.jpg">
+			</div>
+		</div>	
+	</section>
 
-    <h1>João Castro</h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo quae, a ducimus ullam eveniet numquam quam aliquid autem fugiat, libero soluta, sit placeat! Voluptates molestias corrupti quam explicabo quo est.
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus impedit nisi facilis ad labore eos, tenetur illo pariatur recusandae incidunt molestiae sapiente mollitia commodi in maiores, eaque dolores? Nisi, saepe.
-    </p>
-    <img src="./img/foto.jpeg" alt="foto" width="300px">
+	<section class="especialidades">
+		<h2 class="title">Especialidades</h2>
+		<div class="center">
+			<div class="box-especialidade">
+				<h3>Icone 1</h3>
+				<h4>CSS3</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+			</div><!--box-especialidade-->
 
-    <h1>Especialidades</h1>
-    <h3>Icone 1 </h3>
-    <h4>CSS3</h4>
+			<div class="box-especialidade">
+				<h3>Icone 2</h3>
+				<h4>HTML 5</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+			</div><!--box-especialidade-->
 
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit quisquam, quae culpa sunt labore laboriosam consequatur accusantium ut numquam molestiae sint. Inventore, quod voluptatibus nihil earum iure dolor eum? Soluta?</p>
+			<div class="box-especialidade">
+				<h3>Icone 3</h3>
+				<h4>Javascript</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+			</div><!--box-especialidade-->
+		</div>
+	</section>
 
-    <h3>Icone 2</h3>
+	<section class="extras">
+		<div class="center">
+			<div class="w50 depoimentos-container">
+				<h2 class="title">Depoimentos dos nossos clientes</h2>
+				
+				<div class="depoimento-single">
+					<p class="depoimento-descricao">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+					<p class="nome-autor">Lorem ipsum</p>
+				</div><!--depoimento-single-->
+			</div><!--w50-->
 
-    <h4>HTML5</h4>
+			<div id="servicos" class="w50 left servicos-container">
+				<h2 class="title">Serviços</h2>
+				<div class="servicos">
+					<ul>
+						<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+						<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+						<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+					</ul>
+				</div><!--servicos-->
+			</div><!--w50-->
+		</div><!--center-->
+	</section><!--extras-->
 
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit quisquam, quae culpa sunt labore laboriosam consequatur accusantium ut numquam molestiae sint. Inventore, quod voluptatibus nihil earum iure dolor eum? Soluta?</p>
-
-    <h3>Icone 3</h3>
-
-    <h4>PHP </h4>
-
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit quisquam, quae culpa sunt labore laboriosam consequatur accusantium ut numquam molestiae sint. Inventore, quod voluptatibus nihil earum iure dolor eum? Soluta?</p>
-
-    <h1 id="depoimentos">Depoimentos dos nossos Clientes</h1>
-
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, dolorem provident officia nihil, in magnam, neque eaque id consequuntur ipsam voluptatem deserunt commodi ullam vero corporis accusamus nesciunt doloribus animi.</p>
-
-    <h1 id="servico">Serviços</h1>
-    <ul>
-        <li>Lorem ipsum dolor sit amet</li>
-        <li>Lorem ipsum dolor sit amet</li>
-        <li>Lorem ipsum dolor sit amet</li>
-    </ul>
-    <p>Todos os direitos reservados!</p>
-
+	<footer>
+		<div class="center">
+			<p>Todos os direitos reservados!</p>
+		</div>
+	</footer>
 </body>
-
 </html>
