@@ -15,10 +15,10 @@
         <a href="#">
             <li>Home</li>
         </a>
-        <a href="">
+        <a href="#depoimentos" target="_black">
             <li>Depoimentos</li>
         </a>
-        <a href="">
+        <a href="#servico">
             <li>Serviço</li>
         </a>
         <a href="">
@@ -27,7 +27,7 @@
     </ul>
 
     <ul>
-        <a href="#">
+        <a href="">
             <li>Home</li>
         </a>
         <a href="">
@@ -71,11 +71,11 @@
 
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit quisquam, quae culpa sunt labore laboriosam consequatur accusantium ut numquam molestiae sint. Inventore, quod voluptatibus nihil earum iure dolor eum? Soluta?</p>
 
-    <h1>Depoimentos dos nossos Clientes</h1>
+    <h1 id="depoimentos">Depoimentos dos nossos Clientes</h1>
 
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, dolorem provident officia nihil, in magnam, neque eaque id consequuntur ipsam voluptatem deserunt commodi ullam vero corporis accusamus nesciunt doloribus animi.</p>
 
-    <h1>Serviços</h1>
+    <h1 id="servico">Serviços</h1>
     <ul>
         <li>Lorem ipsum dolor sit amet</li>
         <li>Lorem ipsum dolor sit amet</li>
